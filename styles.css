@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.profile {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #fff;
+    border-bottom: 2px solid #007BFF;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #007BFF;
+}
+
+.profile p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.education, .skills, .projects {
+    background: #fff;
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 0.5rem;
+    color: #333;
+}
+
+.skills ul, .projects .project {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills li, .projects .project {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.skills li:hover, .projects .project:hover {
+    background-color: #e9ecef;
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
